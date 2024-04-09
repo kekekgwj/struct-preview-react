@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import dts from 'vite-plugin-dts'
+// import dts from 'vite-plugin-dts'
 import path from 'path';
 // https://vitejs.dev/config/
 
@@ -8,7 +8,7 @@ function resolve(str: string) {
   return path.resolve(__dirname, str);
 }
 export default defineConfig({
-  plugins: [dts(), react()],
+  plugins: [react()],
   root: './examples',
   build: {
     outDir: "lib",
