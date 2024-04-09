@@ -1,6 +1,6 @@
 {
   "name": "struct-preview-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index.umd.js",
   "module": "lib/index.es.js",
   "files": [
