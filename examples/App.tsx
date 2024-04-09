@@ -1,4 +1,4 @@
-// import PreviewStruct from './lib/index.es.js';
+// import PreviewStruct from '../lib/index.es.js';
 import PreviewStruct from '../packages/index';
 import './App.css'
 
