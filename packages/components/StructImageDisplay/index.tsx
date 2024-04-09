@@ -1,6 +1,6 @@
 import React from "react";
 //@ts-ignore
-import { TIFFViewer } from 'react-tiff'
+import { TIFFViewer } from '@coderedm0nztr/react-tiff'
 
 export interface IStructImage {
     source: string;
