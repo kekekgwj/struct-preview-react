@@ -1,8 +1,8 @@
 ## Background
-Support previewing material related file
-Including format:
-'webp', 'bmp', 'ico', 'jpg', 'jpeg', 'gif', 'png', 'heic', 'svg'
-'pqr',  'cif', 'pdb', 'cube', 'xyz','sdf', 'mol2', 'lammpstrj', 'vasp', 'tiff', 'poscar', 'contcar'
+Supports preview of material related files
+Included format:
+webp, bmp, Icon,jpg, jpeg, gif, png, heic, svg
+"Evaluation", "cif", "PDB", "the cube", "xyz", "self", 'mol2', 'lammpstrj', 'vasp', 'tiff', 'poscar', 'contcar'
 
 ## Basic Usage
 import PreviewStruct from 'struct-preview-react/lib'
