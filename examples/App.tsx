@@ -1,4 +1,4 @@
-import PreviewStruct from '../src'
+import PreviewStruct from '../lib/index.js';
 import './App.css'
 
 function App() {
