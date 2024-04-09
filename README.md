@@ -5,7 +5,7 @@ webp, bmp, Icon,jpg, jpeg, gif, png, heic, svg
 "Evaluation", "cif", "PDB", "the cube", "xyz", "self", 'mol2', 'lammpstrj', 'vasp', 'tiff', 'poscar', 'contcar'
 
 ## Basic Usage
-import PreviewStruct from 'struct-preview-react/lib'
+import PreviewStruct from 'struct-preview-react'
 
 <PreviewStruct 
   type="cif" 
