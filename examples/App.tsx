@@ -1,5 +1,6 @@
 // import PreviewStruct from '../lib/index.es.js';
 import PreviewStruct from '../packages/index';
+// import PreviewStruct from 'struct-preview-react/lib'
 import './App.css'
 
 function App() {

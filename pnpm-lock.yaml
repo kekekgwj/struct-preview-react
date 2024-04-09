@@ -2320,6 +2320,22 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /struct-preview-react@0.0.6(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-jWWH79L92+BQqDyF85ICgepaa3zTDEBPjAMBXIFNleqf04UFn7V8TgeRjm0FuUmjdl7OCFjmdb/C9K5UxCNkPw==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      3dmol: 2.1.0
+      '@coderedm0nztr/react-tiff': 0.0.8(react-dom@18.2.0)(react@18.2.0)
+      classnames: 2.5.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    transitivePeerDependencies:
+      - debug
+      - react-native
+    dev: false
+
   /supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
     engines: {node: '>=4'}
