@@ -11,7 +11,7 @@ export interface IStructImage {
 	type: "tiff";
 }
 const TiFFRender: React.FC<Omit<IStructImage, 'type'>>= (props) => {
-	const { source, width, height, className } = props;
+	const { source } = props;
 
 	return (
 		<TIFFViewer
@@ -24,7 +24,7 @@ const TiFFRender: React.FC<Omit<IStructImage, 'type'>>= (props) => {
 	)
 };
 const StructImageDisplay: React.FC<IStructImage> = (props) => {
-    const { source, width, height, className, type } = props;
+    const { source, width, height, className } = props;
     const w = String(width || '');
     const h = String(height || '');
 	const compProps = {

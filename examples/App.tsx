@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import PreviewStruct from '../src'
 import './App.css'
 
