@@ -11,12 +11,13 @@ export default defineConfig({
   plugins: [dts({
     entryRoot: 'packages'
   }), react()],
-  root: './examples',
+  // root: './examples',
   build: {
     outDir: "lib",
     lib: {
       entry: resolve('packages/index.ts'),
       name: 'StructPreview',
+      fileName: () => 'index.js',
       formats: ['es'],
     },
     rollupOptions: {
