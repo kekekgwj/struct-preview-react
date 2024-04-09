@@ -1,17 +1,11 @@
 {
   "name": "struct-preview-react",
   "version": "0.0.4",
-  "main": "lib/index.umd.js",
-  "module": "lib/index.es.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "exports": {
-    ".": {
-      "import": "./lib/index.umd.js",
-      "require": "./lib/index.es.js"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
