@@ -28,9 +28,12 @@ const StructModelDisplay: React.FC<IStructModelDisplay> = (props) => {
 	const { source, width = 300, height = 300, className, style, format, content } = props;
 
 
-	const getPreviewFile = async (previewUrl: string) => {
+	const getPreviewFile = async (previewUrl: string | null) => {
+		if (!previewUrl) {
+			return;
+		}
 		try {
-			const response = await fetch(previewUrl || "https://materials-fe.oss-cn-hangzhou-zjy-d01-a.ops.cloud.zhejianglab.com/42-0N-SV-Sc.cif");
+			const response = await fetch(previewUrl);
 			const streamReader = response?.body?.getReader();
 			let content = '';
 			const read = () => {
@@ -64,9 +67,7 @@ const StructModelDisplay: React.FC<IStructModelDisplay> = (props) => {
 		if (content) {
 			renderChart(content, format)
 		} else {
-			if (source) {
-				getPreviewFile(source);
-			}
+			getPreviewFile(source);
 		}
 	}, [source, content])
 	return (  
